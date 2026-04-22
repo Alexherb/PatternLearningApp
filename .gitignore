@@ -1,0 +1,113 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build folders
+[Bb]in/
+[Oo]bj/
+artifacts/
+out/
+publish/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+packages/
+.project.lock.json
+project.assets.json
+
+# NuGet V3 lock
+packages.lock.json
+
+# Azure Functions
+.local.settings.json
+
+# ASP.NET temporary files
+*.log
+*.vspscc
+*.vsscc
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build and publish output
+*.zip
+*.tar.gz
+*.publishsettings
+
+# npm
+node_modules/
+
+# Yarn
+.yarn/
+.yarnrc
+
+# Cordova
+hooks/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Rider and IntelliJ caches
+*.iml
+*.iws
+.idea/
+
+# Local secrets and user-specific settings
+secrets.json
+appsettings.*.local.json
+appsettings.*.Local.json
+
+# Database files
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+# Coverage folders
+coverage/
+
+# JetBrains Rider caches
+.idea/
+.idea/**/workspace.xml
+
+# Logging
+*.log
+
+# dotnet tools
+.project.nuget.cache
+
+# Others
+*.vsix
+
+# End of file

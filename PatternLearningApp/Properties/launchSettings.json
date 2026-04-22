@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "PatternLearningApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "PostCrossing_Email": "herbie@alexherb.de",
+        "PostCrossing_Password": "D!@p3rl0v3r43v3r"
+      }
+    }
+  }
+}
