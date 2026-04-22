@@ -57,6 +57,7 @@ namespace PatternLearningApp
 
         public Task EmitAsync(LogEntry entry, CancellationToken ct = default)
         {
+        Console.WriteLine("Hello from ConsoleLogSink!");
             if (_disposed) throw new ObjectDisposedException(nameof(ConsoleLogSink));
             try
             {
